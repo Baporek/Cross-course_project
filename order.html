@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nice_Cream_Online</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Condensed:400,700|Saira:300,400&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <form class="order-form" action="" method="get">
+            <fieldset id="icecream-options">
+                <legend>Order your ice cream here</legend>
+                <select class="order-form_dropdown" name="select-ice">
+                    <option value="blank">Choose a Ice Cream..</option>
+                    <option value="margherita">Chocolad</option>
+                    <option value="quattro-formaggi">Vanilla</option>
+                    <option value="capricciosa">Straweberry</option>
+                </select>
+                <p>What's topping creame:</p>
+                <input type="radio" id="chocolad" name="topping" value="chocolad">
+                <label for="chocolad">Chocolad</label>
+                <input type="radio" id="toffee" name="topping" value="toffee">
+                <label for="toffee">Toffee</label>
+                <input type="radio" id="caramel" name="topping" value="caramel">
+                <label for="caramel">Caramel</label>
+                <input type="radio" id="none" name="topping" value="none">
+                <label for="none">None</label>
+                <p>Additional sprinkles on top?</p>
+                <ul>
+                    <li><input type="checkbox" name="Crunchie" value="Crunchie">
+                        <label for="crunchie">Crunchie</label></li>
+                    <li><input type="checkbox" name="Smarties" value="Smarties">
+                        <label for="Smarties">Smarties</label></li>
+                    <li><input type="checkbox" name="Oreo" value="Oreo">
+                        <label for="Oreo">Oreo</label></li>
+                    <li><input type="checkbox" name="Lion" value="Lion">
+                        <label for="Lion">Lion</label></li>
+                </ul>
+                <p>How do you want to have your ice served?</p>
+                <ul>
+                    <li><input type="checkbox" name="wafer" value="wafer">
+                        <label for="wafer">Wafer</label></li>
+                    <li><input type="checkbox" name="plastic_cup" value="plastic_cup">
+                        <label for="plastic_cup">Plastic cup</label></li>
+                    <li><input type="checkbox" name="stick" value="stick">
+                        <label for="stick">Stick</label></li>
+                </ul>
+            </fieldset>
+            <fieldset id="contact-info">
+                <legend>Your contant info</legend>
+                <label for="name">Full name*</label>
+                <input type="text" name="name" required="">
+                <label for="phone">Telephone number*</label>
+                <input type="tel" name="phone" required="">
+                <label for="address">Address*</label>
+                <input type="text" name="address" required="">
+            </fieldset>
+            <input id="order-button" type="submit" name="order" value="Order">
+        </form>
+    </div>
+
+    <button>
+        <a href="index.html">Back to home</a>
+    </button>
+</body>
+
+</html>
