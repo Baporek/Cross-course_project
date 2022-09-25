@@ -1,26 +1,22 @@
 # Cross-Course
 
-![Caffe_blog2](https://user-images.githubusercontent.com/74684378/192103802-40a1d576-1f6d-4d3f-ab90-3234908d98e1.jpg)
-
-This assignment was exeminating the skills and experience been gained in first year of studies
+![Ice_Nice_Cream](https://user-images.githubusercontent.com/74684378/192156150-d3d6fb33-61e2-43fe-b727-5bedf8bec179.jpg)
 
 ## Description
-I set out to make a website for an blog page. First I researched blogs similar pages and created a my own blog.
+I set out to make a website for an Ice cream shop. First I researched similar Ice cream pages before I created a my own. 
 It has several subpages:
 
     - Home
     - About
-    - List of blog posts
-    - Blog post specific page
+    - Services
+    - Feedback
     - Contact
 
 ## Built With
 Stacks I used to build the project:
 
-- JavaScript
 - HTML
 - CSS
-- Wordpress
 
 ## Getting Started
 
@@ -31,7 +27,7 @@ Here is the repo can be used and clone to fallow the current changes
 1. Clone the repo:
 
 ```bash
-https://github.com/Baporek/Project_Exam_1.git
+https://github.com/Baporek/Cross-course_project.git
 ```
 
 ## Contributing
